@@ -1,5 +1,6 @@
 from schemas.movies import (
-    MovieDetailSchema,
-    MovieListResponseSchema,
-    MovieListItemSchema
+    MovieCreate, 
+    MovieResponse, 
+    MovieUpdate, 
+    MovieListResponseSchema  # <--- Ось тут має бути правильна назва
 )
